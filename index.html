@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="icon" href="images/fav.ico">
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/pmd1yje.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/css/nanogallery2.min.css"
+      integrity="sha512-6sOT9zKSKq1CYgNMqtcY84tFPDnG1yX5mxwdGQiAVpAomVr2kUKJ//pFeU/KfaZDVCOru5iFOVswpT4RWWF2dQ=="crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Hestia</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+      <div class="container">
+
+        <a href="#home" class="navbar-brand"><img src="images/logo.png"
+            alt="logo" class="img-responsive"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarId">
+
+          <span><i class="fas fa-bars hamburger"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarId">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="navbar-item"><a href="#about" class="nav-link">Features</a></li>
+            <li class="navbar-item"><a href="#pgl" class="nav-link">Photo
+                Gallery</a></li>
+            <li class="navbar-item"><a href="#videos" class="nav-link">Videos</a></li>
+            <li class="navbar-item"><a href="contact" class="nav-link"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="container-fluid header-content">
+        <div class="row">
+          <div class="col text-center">
+            <div class="content-box">
+              <h1 class="slogan">Winter Is <h1 class="snow">Snow</h1> <h1
+                  class="slogan">Much Fun</h1></h1>
+              <p class="discription">The body warmer is suitable for winter
+                sports enthousiasts and people who enjoy the
+                outdoors.</p>
+              <a href="#about" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Snowflake-->
+
+    <style>
+    /* customizable snowflake styling */
+    .snowflake {
+      color: #fff;
+      font-size: 1rem;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 0 5px #000;
+    }
+    
+    @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+    </style>
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+    </div>
+
+    <!--End Snowflake-->
+
+    <!--About-->
+    <section class="about d-flex justify-content-center" id="about">
+      <div class="container2" id="container2">
+
+        <div class="row mt-5">
+          <div class="col-lg-6">
+
+            <img src="images/bodywarmer.jpg" class="jas" alt="profile picture">
+          </div>
+          <div class="col-lg-6 pl-5">
+            <h2 class=headf>Features</h2>
+
+            <div class="alltogether">
+              <p class="jasfeatures">Three different heat settings</p>
+              <p class="jasfeatures">Powerful powerbank</p>
+              <p class="jasfeatures">Five heating zones</p>
+              <div class="btnod"> <a
+                  href="https://www.amazon.com/Heated-Charging-Electric-Warmer-Hunting/dp/B08JYXYY4J"
+                  class="btno">Buy Now</a></div>
+
+              <ul class="list-inline d-flex justify-content-center">
+                <li class="list-inline-item"><a href="#"><i class="fab
+                      fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab
+                      fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab
+                      fa-behance"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab
+                      fa-youtube"></i></a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <div class="prtfd">
+        <section id="portfolio" class="prtf">
+          <h1 class="pgl" id="pgl">Photo Gallery</h1>
+
+          <!-- ### start of the gallery definition ### -->
+          <div id="nanogallery2"
+
+
+
+            data-nanogallery2= '{" thumbnailHeight" : 150," thumbnailWidth" :
+            150," itemsBaseURL"
+            :" https://nanogallery2.nanostudio.org/samples/"
+            }'>
+
+            <!-- gallery content -->
+            <a href="images/Hammer.jpg" data-ngThumb="images/Hammer.jpg"> </a>
+            <a href="images/reading.jpg" data-ngThumb="images/reading.jpg"></a>
+            <a href="images/Umbrella.jpg" data-ngThumb="images/Umbrella.jpg">
+            </a>
+            <a href="images/Window.jpg" data-ngThumb="images/Window.jpg"> </a>
+            <a href="images/Joy.jpg" data-ngThumb="images/Joy.jpg"> </a>
+            <a href="images/deliveryguy.jpg"
+              data-ngThumb="images/deliveryguy.jpg">
+            </a>
+            <a href="images/Street.jpg" data-ngThumb="images/Street.jpg"> </a>
+            <a href="images/Delivery.jpg" data-ngThumb="images/Delivery.jpg">
+            </a>
+            <a href="images/Judgemental.jpg"
+              data-ngThumb="images/Judgemental.jpg">
+            </a>
+            <a href="images/mediumshot.jpg"
+              data-ngThumb="images/mediumshot.jpg">
+            </a>
+            <a href="images/Bodywarmerr.png"
+              data-ngThumb="images/Bodywarmerr.png">
+            </a>
+            <a href="images/road.png"
+              data-ngThumb="images/road.png">
+            </a>
+            <a href="images/snowboy.png"
+              data-ngThumb="images/snowboy.png">
+            </a>
+            <a href="images/sticks.png"
+              data-ngThumb="images/sticks.png">
+            </a>
+            <a href="images/snowboard.png"
+              data-ngThumb="images/snowboard.png">
+            </a>
+            <a href="images/fisher.png"
+              data-ngThumb="images/fisher.png">
+            </a>
+
+          </div>
+
+        </section>
+
+      </div>
+
+      <!--Videos-->
+
+      <div class="vd">
+        <h2 class="vdr" id="vdr">Typo Animation</h2>
+        <div class="video1" id="videos">
+
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/l_PtQ8ct4BM" title="YouTube video
+            player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2 class="vdr" id="vdr">Climate Change</h2>
+        <div class="video2">
+
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ICqVYVMPpLQ" title="YouTube video
+            player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+
+
+
+
+        <!--contact-->
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="a6f7d185-e980-4838-9bb7-99bf395e9ac6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+        <!--footer-->
+        <footer class="footer">
+          <div class="footer content">
+
+            <div class="footer-bottom">
+              <p>copyright &copy;2022 Hestia. designed by <span>Abdullah</span></p>
+            </div>
+
+
+          </footer>
+
+
+          <script src="lib/jquery-3.3.1.min.js"></script>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js"
+            integrity="sha512-tvpLVnZrWnnNzV2921XEMx4xkFTUF8xg3s+Mi6cvC/R7A6X1FkpBUXPJFa3Xh5uD9BvOZ2tHeYq/5ZqrweW86Q=="crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+          <script src="lib/popper.min.js"></script>
+          <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+          <script src="lib/jquery.smooth-scroll.js"></script>
+          <script src="lib/imagesloaded.pkgd.min.js"></script>
+          <script src="lib/owl.carousel.min.js"></script>
+          <script src="lib/typed.js"></script>
+          <script src="lib/jquery.waypoints.min.js"></script>
+          <script src="lib/jquery.filterizr.min.js"></script>
+          <script src="js/app.js"></script>
+
+        </body>
+      </html>
